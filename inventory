@@ -2,6 +2,11 @@
 roboshop-us-dev-db-mongodb-01.joindevops.website
 
 
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
+
+
 [mysql]
 roboshop-us-dev-db-mysql-01.joindevops.website
 roboshop-us-dev-db-mysql-02.joindevops.website
