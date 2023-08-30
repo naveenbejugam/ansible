@@ -6,3 +6,4 @@
   - name: printing variables
     ansible.builtin.debug:
       msg: "We are learning {{NAME}}, Duration is: {{DURATION}}, Trainer is: {{TRAINER}}"
+      msg: "Student is :{{STUDENT}}"
